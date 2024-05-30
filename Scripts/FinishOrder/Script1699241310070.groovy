@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Checkout'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/button_Finish'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CheckoutOverviewPageObject/button_Finish'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Finish'))
+WebUI.click(findTestObject('Object Repository/CheckoutOverviewPageObject/button_Finish'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/span_Checkout Complete'), 'Checkout: Complete!')
+WebUI.verifyElementText(findTestObject('Object Repository/ThankYouPageObject/span_Checkout Complete'), 'Checkout: Complete!')
 

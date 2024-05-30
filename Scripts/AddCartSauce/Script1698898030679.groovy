@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('LoginSauce'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
+WebUI.click(findTestObject('Object Repository/ProductCatalogue/button_Add to cart'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/span_1'))
+WebUI.click(findTestObject('Object Repository/HeaderPageObject/btnGoToCart'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpackcarry.allTheThings()_a0841a'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/CartPageObject/titleProductCart'))
 

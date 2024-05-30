@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('AddCartSauce'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/CartPageObject/button_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Checkout'))
+WebUI.click(findTestObject('Object Repository/CartPageObject/button_Checkout'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName'), 'test')
+WebUI.setText(findTestObject('Object Repository/CheckoutInformationPageObject/input_Checkout Your Information_firstName'), 'test')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName'), 'test')
+WebUI.setText(findTestObject('Object Repository/CheckoutInformationPageObject/input_Checkout Your Information_lastName'), 'test')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode'), '123')
+WebUI.setText(findTestObject('Object Repository/CheckoutInformationPageObject/input_Checkout Your Information_postalCode'), '123')
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/CheckoutInformationPageObject/input_Continue'))
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
+WebUI.click(findTestObject('Object Repository/CheckoutInformationPageObject/input_Continue'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Swag Labs/div_Checkout Overview'), 'Checkout: Overview')
+WebUI.verifyElementText(findTestObject('Object Repository/CheckoutOverviewPageObject/div_Checkout Overview'), 'Checkout: Overview')
 
