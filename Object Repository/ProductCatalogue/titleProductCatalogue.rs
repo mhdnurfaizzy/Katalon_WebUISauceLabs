@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>titleProductCart</name>
+   <name>titleProductCatalogue</name>
    <tag></tag>
-   <elementGuidId>ed115ad5-7ab3-462b-ac76-0a055d936bb0</elementGuidId>
+   <elementGuidId>4090b9bf-e514-4129-8788-2f3309feb83c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//div[@class='inventory_item_name'])[1]</value>
+         <value>(//div[normalize-space()='Sauce Labs Backpack'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//div[@class='inventory_item_name'])[1]</value>
-      <webElementGuid>e7b0ccaa-fea3-444b-8f95-b8d5e0e88ff5</webElementGuid>
+      <value>(//div[normalize-space()='Sauce Labs Backpack'])[1]</value>
+      <webElementGuid>bb336f0b-86d8-4b55-aca3-de27ef1a24a3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

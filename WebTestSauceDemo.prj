@@ -4,8 +4,12 @@
    <name>WebTestSauceDemo</name>
    <tag></tag>
    <UUID>5bb71d65-b449-4f6a-8be6-8816c42fd4ce</UUID>
+   <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\HOME\git\Katalon_WebUISauceLabs\WebTestSauceDemo.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -4,5 +4,6 @@
    <name>AddCartSauce</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>880b7e74-646e-48a7-8ffa-535e379e7f5a</testCaseGuid>
 </TestCaseEntity>

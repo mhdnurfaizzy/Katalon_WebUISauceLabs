@@ -4,5 +4,6 @@
    <name>LoginSauce</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>eea7c8d6-45a4-443a-897b-f11960ca225c</testCaseGuid>
 </TestCaseEntity>
