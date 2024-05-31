@@ -23,13 +23,9 @@ WebUI.click(findTestObject('Object Repository/ProductCatalogue/button_Add to car
 
 String productTitle = WebUI.getText(findTestObject('ProductCatalogue/titleProductCatalogue'))
 
-println('Captured Product Title from Catalog: ' + productTitle)
-
 WebUI.click(findTestObject('Object Repository/HeaderPageObject/btnGoToCart'))
 
 String cartProductTitle = WebUI.getText(findTestObject('Object Repository/CartPageObject/titleProductCart'))
-
-println('Captured Product Title from Cart Page: ' + cartProductTitle)
 
 WebUI.verifyElementText(findTestObject('CartPageObject/titleProductCart'), productTitle)
 
